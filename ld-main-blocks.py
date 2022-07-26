@@ -276,8 +276,7 @@ pprint(SE__delta_uncor)
 
 
 # ---------------------------------------------------------------------------------
-# Means
-# ?  Correlated
+# Means - Correlated
 u1_1 = np.array(exp_cor_covs).mean(axis=0)
 u1_2 = np.array(exp_cor_covs_P).mean(axis=0)
 
@@ -350,4 +349,3 @@ TT_delta_uncor_vs_vanilla_uncor: {}
 
 
 
-# -⋯⋯⋅⋱⋰⋆⋅⋅⋄⋅⋅∶⋅⋅⋄▫▪▭┈┅✕⋅⋅⋄⋅⋅✕∶⋅⋅⋄⋱⋰⋯⋯⋯⋯⋅⋱⋰⋆⋅⋅⋄⋅⋅∶⋅⋅⋄▫▪▭┈-⋯⋯⋅⋱⋰⋆⋅⋅⋄⋅⋅∶⋅⋅⋄▫▪▭┈┅✕⋅⋅⋄⋅⋅✕∶⋅⋅⋄⋱⋰⋯⋯⋯⋯⋅⋱⋰⋆⋅⋅⋄⋅⋅∶⋅⋅⋄▫▪▭┈
